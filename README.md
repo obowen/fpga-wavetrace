@@ -1,10 +1,10 @@
 # FPGA Wavetrace
 
-*This is not an officially supported Google product*
+**This is not an officially supported Google product**
 
-Wavetrace is a platform independent real time FPGA debug tool. It acts as an
-internal logic analyzer, allowing one to capture cycle-by-cycle data from
-internal FPGA nets and registers and display these as a waveform.
+Wavetrace is a platform independent real time FPGA debug tool. It functions
+as an internal logic analyzer, allowing one to capture cycle-by-cycle data from
+internal FPGA nets and display these as a waveform.
 
 This Git repository includes the following:
 
