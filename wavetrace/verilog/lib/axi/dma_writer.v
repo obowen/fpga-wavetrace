@@ -92,7 +92,7 @@ module dma_writer #(
   reg [BurstBits-1:0]        burst_remain, burst_cand;
   reg [LengthBits-1:0]       total_remain;
   reg [AddrBits-1:0]         next_addr;
-  reg [9:0]                 until_4k;
+  reg [10:0]                 until_4k;
   always @(posedge clk) begin
 
     // default behavior
